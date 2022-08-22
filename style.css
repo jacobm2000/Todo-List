@@ -1,0 +1,9 @@
+.padding-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#todo-input{
+    display:flex;
+    justify-content: center;
+}
