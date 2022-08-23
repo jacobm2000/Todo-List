@@ -7,3 +7,9 @@
     display:flex;
     justify-content: center;
 }
+
+#edit{
+    display: none;
+    
+    padding-top: 2rem;
+}
