@@ -56,7 +56,9 @@ for(let i=0; i<len;i++){
 button.addEventListener('click', add)
 function add()
 {
+
 tasks.push(textbox.value)
+textbox.value=""
 update()
 }
 
