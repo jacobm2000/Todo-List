@@ -14,6 +14,7 @@ for(let i=0; i<len;i++){
     btnEdit.appendChild(document.createTextNode('Edit'))
     btnEdit.classList.add("btn-warning")
     btnEdit.classList.add("float-right")
+    btnEdit.classList.add("ml-2")
     
     
     
@@ -42,7 +43,7 @@ for(let i=0; i<len;i++){
     node.appendChild(document.createTextNode(tasks[i]))
     node.classList.add("list-group-item")
     node.classList.add("list-group-item-secondary")
-    node.classList.add("w-25")
+    
     
     node.append(btnDel)
     node.append(btnEdit)
